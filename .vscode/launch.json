@@ -8,13 +8,11 @@
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "cds",
       "args": [
-        "serve",
+        "watch",
         "--with-mocks",
         "--in-memory?"
       ],
       "skipFiles": [
         "<node_internals>/**"
       ]
-    }
-  ]
-}
+    }]}
