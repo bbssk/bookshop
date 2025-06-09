@@ -4,6 +4,24 @@ Content-Type: application/json
 Authorization: Basic alice:
 
 {
-  "book": 201,
+  "book": "201",
   "quantity": 2
+}
+
+###
+POST http://localhost:4004/browse/bhargav
+Content-Type: application/json
+
+
+###
+DELETE  http://localhost:4004/odata/v4/admin/Orders/22130608-23d7-48f4-b97e-8eeb8296fb81
+###
+GET http://localhost:4004/odata/v4/admin/Books?$expand=author
+
+###
+POST http://localhost:4004/odata/v4/admin/abc
+Content-Type: application/json
+
+{
+  "comment":"abc"
 }
