@@ -54,3 +54,11 @@ entity abc{
   comment:String;
   
   }
+
+
+entity times:cuid,managed{
+  Time:Time;
+  Timestamp:Timestamp;
+  DateTime:DateTime;
+  Date: Date;
+}
